@@ -1,0 +1,31 @@
+/* background colors  */
+.ms_bg-navy { 
+    background-color: #2C3E50;
+    color: white;
+}
+
+.ms_bg-navylight {
+    background-color: #3A546D;
+    color: white;
+}
+
+.ms_bg-turquoise {
+    background-color: #1ABC9C;
+    color: white;
+}
+
+/* heights */
+.ms_min-height-xs {
+    min-height: 60px;
+}
+
+.ms_min-height-lg {
+    min-height: 250px;
+}
+
+/* debug */
+/* .row, .container, .container-fluid {
+    border: 2px solid black;
+} */
+
+
