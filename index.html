@@ -12,22 +12,29 @@
 </head>
 
 <body>
-    <header>
-        <div class="container-fluid ms_bg-navy">
+    <header class="ms_bg-navy">
+        <div class="container text-uppercase fw-bold">
             <nav class="row ms_min-height-xs align-items-center justify-content-around">
-                <div class="col-auto">Start Bootstrap</div>
-                <div class="col-auto">Lista</div>
-            </nav>
-
-            <div id="ms_jumbo">
-                <div class="row ms_min-height-lg ms_bg-turquoise">
-                    <div class="col-auto"></div>
+                <div class="col-auto fs-3">Start Bootstrap</div>
+                <div class="col-auto">
+                    <ul class="ms_ul">
+                        <li>Portfolio</li>
+                        <li>Contact</li>
+                        <li>About</li>
+                    </ul>
                 </div>
-            </div>
-        </div>
+            </nav>
     </header>
 
     <main>
+        <section id="jumbo" class="ms_bg-turquoise">
+            <div class="container">
+                <div class="row ms_min-height-lg">
+                    <div class="col-auto"></div>
+                </div>
+            </div>
+        </section>
+
         <section id="ms_portfolio">
             <div class="container">
                 <div class="row ms_min-height-lg">
@@ -44,7 +51,7 @@
             </div>
         </section>
 
-        <section id="ms_about ms_bg-turquoise">
+        <section id="ms_about" class="ms_bg-turquoise">
             <div class="container ms_bg-turquoise">
                 <div class="row ms_min-height-lg justify-content-center">
                     <div class="col-12">About</div>
@@ -65,8 +72,8 @@
     </main>
 
     <footer>
-        <section id="ms_footer_info">
-            <div class="container-fluid ms_bg-navylight ms_min-height-xs">
+        <section id="ms_footer_info" class="ms_bg-navylight">
+            <div class="container ms_min-height-xs">
                 <div class="row">
                     <div class="col-4">Location</div>
                     <div class="col-4">Around the web</div>
@@ -75,8 +82,8 @@
             </div>
         </section>
 
-        <section id="ms_disclaimer">
-            <div class="container-fluid ms_bg-navy">
+        <section id="ms_disclaimer" class="ms_bg-navy">
+            <div class="container">
                 <div class="row">
                     <div class="col-12">Copyright</div>
                 </div>

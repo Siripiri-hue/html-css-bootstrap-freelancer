@@ -16,11 +16,19 @@
 
 /* heights */
 .ms_min-height-xs {
-    min-height: 60px;
+    min-height: 90px;
 }
 
 .ms_min-height-lg {
     min-height: 250px;
+}
+
+/* list */
+.ms_ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 0;
 }
 
 /* debug */
