@@ -19,9 +19,15 @@
                 <div class="col-auto fs-3">Start Bootstrap</div>
                 <div class="col-auto">
                     <ul class="ms_ul">
-                        <li><a class="ms_a" href="#ms_portfolio">Portfolio</a></li>
-                        <li><a class="ms_a" href="#ms_about">About</a></li>
-                        <li><a class="ms_a" href="#ms_contact-me">Contact</a></li>
+                        <li>
+                            <a class="ms_a" href="#ms_portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a class="ms_a" href="#ms_about">About</a>
+                        </li>
+                        <li>
+                            <a class="ms_a" href="#ms_contact-me">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -29,46 +35,109 @@
 
     <main>
         <section id="ms_jumbo" class="ms_bg-turquoise">
-            <div class="container">
-                <div class="row">
-                    <div class="col-auto"></div>
+            <div class="container py-4">
+                <div class="row justify-content-center">
+                    <div class="col-auto d-flex flex-column align-items-center text-uppercase">
+                        <figure>
+                            <img src="img/avatar.svg">
+                        </figure>
+                        <h1>Start Bootstrap</h1>
+                        <h2>Graphic artist - Web designer - Illustrator</h2>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="ms_portfolio">
-            <div class="container">
+            <div class="container py-4">
                 <div class="row">
-                    <div class="col-12">Portfolio</div>
+                    <div class="col-12">
+                        <h2 class="text-uppercase text-center">Portfolio</h2>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">1</div>
-                    <div class="col-4">2</div>
-                    <div class="col-4">3</div>
+                    <div class="col-4">
+                        <figure class="portfolio__card">
+                            <img src="img/cabin.png">
+                        </figure>
+                    </div>
+
+                    <div class="col-4">
+                        <figure class="portfolio__card">
+                            <img src="img/cake.png">
+                        </figure>
+                    </div>
+
+                    <div class="col-4">
+                        <figure class="portfolio__card">
+                            <img src="img/circus.png">
+                        </figure>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-4">4</div>
-                    <div class="col-4">5</div>
-                    <div class="col-4">6</div>
+                <div class="row justify-content-center">
+                    <div class="col-4">
+                        <figure class="portfolio__card">
+                            <img src="img/game.png">
+                        </figure>
+                    </div>
+
+                    <div class="col-4">
+                        <figure class="portfolio__card">
+                            <img src="img/safe.png">
+                        </figure>
+                    </div>
+
+                    <div class="col-4">
+                        <figure class="portfolio__card">
+                            <img src="img/submarine.png">
+                        </figure>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="ms_about" class="ms_bg-turquoise">
-            <div class="container ms_bg-turquoise">
+            <div class="container py-4 px-5">
                 <div class="row justify-content-center">
-                    <div class="col-12">About</div>
-                    <!-- row? -->
-                    <div class="col-6">1</div>
-                    <div class="col-6">2</div>
+                    <div class="col-12">
+                        <h2 class="text-uppercase text-center">About</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, obcaecati?
+                    Obcaecati at pariatur repellendus doloribus rerum porro quae labore non.
+                    Quam quas delectus ipsum repellat? Id necessitatibus totam ipsam rerum!
+                    Omnis odit numquam placeat hic iusto necessitatibus obcaecati quae quos.
+                    Ea, distinctio! Deserunt ea aliquam recusandae culpa! Tempore, amet vel!
+                    Dolorem aperiam illum adipisci atque. Sapiente officiis accusantium vitae maiores!
+                    Aliquid, officia. Enim sequi accusamus eum, eveniet illo praesentium optio?
+                    Error, odit? Nulla perspiciatis delectus, dicta blanditiis quam fugiat eum.
+                    Nesciunt soluta tempora quisquam consectetur, possimus distinctio maxime ducimus voluptatem.</p>
                 </div>
             </div>
         </section>
 
         <section id="ms_contact-me">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12">Contact Me</div>
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-center text-uppercase">Contact Me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <form action="">
+                            <!-- <label for="name">Name</label><br> -->
+                            <input type="text" id="name" value="Name">
+                            <!-- <label for="email">Email address</label><br> -->
+                            <input type="text" id="email" value="Email Address">
+                            <!-- <label for="phone">Phone number</label><br> -->
+                            <input type="text" id="phone" value="Phone Number">
+                            <!-- <label for="message">Message</label><br> -->
+                            <input type="text" id="message" value="Message" rows="5" cols="40" >
+                            <button type="button" class="btn btn-info">Info</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
@@ -76,19 +145,35 @@
 
     <footer>
         <section id="ms_footer_info" class="ms_bg-navylight">
-            <div class="container">
+            <div class="container py-4">
                 <div class="row justify-content-between">
-                    <div class="col-4">Location</div>
-                    <div class="col-4">Around the web</div>
-                    <div class="col-4">About Freelancer</div>
+                    <div class="col-4">
+                        <h4 class="text-uppercase text-center">Location</h4>
+                        <p>2215 John Daniel Drive Clark, MO 54243</p>
+                    </div>
+                    <div class="col-4">
+                        <h4 class="text-uppercase text-center">Around the web</h4>
+                        <ul class="ms_ul justify-content-center">
+                            <li><i class="fab fa-facebook-f"></i></li>
+                            <li><i class="fab fa-google-plus-g"></i></li>
+                            <li><i class="fab fa-twitter"></i></li>
+                            <li><i class="fab fa-linkedin-in"></i></li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <h4 class="text-uppercase text-center">About Freelancer</h4>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a class="ms_a" href="#">Start Bootstrap</a>.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="ms_disclaimer" class="ms_bg-navy">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-auto">Copyright</div>
+            <div class="container py-4">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-auto mb-0">
+                        <p>Copyright Your Web Site 2019</p>
+                    </div>
                 </div>
             </div>
         </section>

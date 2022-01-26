@@ -45,24 +45,49 @@
     min-height: 90px;
 }
 
-#ms_jumbo {
-    min-height: 580px;
+#ms_jumbo figure {
+    width: 230px
 }
 
-#ms_portfolio {
-    min-height: 850px;
+#ms_portfolio .portfolio__card img {
+    max-width: 300px;
+    border-radius: 7px;
 }
 
-#ms_about {
-    min-height: 480px;
+#ms_about p {
+    column-count: 2;
+    column-gap: 10px;
 }
 
-#ms_contact-me {
-    min-height: 480px;
+#ms_contact-me input[type=text] {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    line-height: 30px;
+}
+
+#ms_contact-me input#message {
+    height: 200px;
 }
 
 #ms_footer_info {
     min-height: 230px;
+}
+
+
+#ms_footer_info li {
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 10px 15px;
+}
+
+#ms_footer_info a {
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+#ms_footer_info a:hover {
+    color: #79d6c4;
 }
 
 #ms_disclaimer {
