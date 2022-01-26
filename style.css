@@ -23,12 +23,50 @@
     min-height: 250px;
 }
 
-/* list */
+/* utilities */
 .ms_ul {
     list-style: none;
     display: flex;
     gap: 15px;
     margin-bottom: 0;
+}
+
+.ms_a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.ms_a:hover {
+    color: #1ABC9C;
+}
+
+/* sezioni */
+#ms_header .container > .row {
+    min-height: 90px;
+}
+
+#ms_jumbo {
+    min-height: 580px;
+}
+
+#ms_portfolio {
+    min-height: 850px;
+}
+
+#ms_about {
+    min-height: 480px;
+}
+
+#ms_contact-me {
+    min-height: 480px;
+}
+
+#ms_footer_info {
+    min-height: 230px;
+}
+
+#ms_disclaimer {
+    min-height: 110px;
 }
 
 /* debug */
