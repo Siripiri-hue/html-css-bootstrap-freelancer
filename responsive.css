@@ -1,0 +1,33 @@
+/* media query */
+
+/* xs-s smartphone */
+@media screen and (max-width: 767px) {
+    #jumbo-avatar {
+        max-width: 100px;
+    }
+
+    .portfolio-card {
+        max-width: 420px;
+        margin: 0 auto;
+    }
+
+    #footer-info [class*="col"] {
+        padding-bottom: 20px;
+    }
+}
+
+/* md tablet */
+@media screen and (min-width: 768px) {
+    .portfolio-card {
+        max-width: 450px;
+    }
+
+    #footer-info [class*="col"] {
+        padding-bottom: 20px;
+    }
+}
+
+/* lg desktop */
+@media screen and (min-width: 992px) {
+    
+}
